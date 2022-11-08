@@ -24,7 +24,7 @@ $('a[data-auto-download]').each(function(){
 var $this = $(this);
 setTimeout(function() {
 window.location = $this.attr('href');
-}, 10);
+}, 100);
 });
 });
 </script>
@@ -32,7 +32,7 @@ window.location = $this.attr('href');
 <body>
 <div class="wrapper">
 <p>The download should start shortly. If it doesn't, click
-<a data-auto-download href="DSC_4370.jpg">here</a>.</p>
-
+<a data-auto-download href="testfile.txt" download>here</a>.</p>
+</div>
 </body>
 </html>
