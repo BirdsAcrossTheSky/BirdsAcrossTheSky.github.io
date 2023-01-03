@@ -63,7 +63,15 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v15.0&appId=906670314042059&autoLogAppEvents=1" nonce="kieZQi1Z"></script>
 
-<fb:login-button autologoutlink="true"></fb:login-button>
+<script>
+function fbLogout() {
+        FB.logout(function (response) {
+            //Do what ever you want here when logged out like reloading the page
+            window.location.reload();
+        });
+    }
+</script>
+<span id="fbLogout" onclick="fbLogout()"><a class="fb_button fb_button_medium"><span class="fb_button_text">Logout</span></a></span>
 
 </body>
 </html>
