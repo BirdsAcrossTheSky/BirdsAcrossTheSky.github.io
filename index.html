@@ -54,7 +54,7 @@
 
 <!-- The JS SDK Login Button -->
 
-<div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+<div class="fb-login-button" data-width="1000" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div>
 
 <div id="status">
 </div>
@@ -63,7 +63,7 @@
 function fbLogout() {
         FB.logout(function (response) {
             //Do what ever you want here when logged out like reloading the page
-            //window.location.reload();
+            window.location.reload();
         });
     }
 </script>
