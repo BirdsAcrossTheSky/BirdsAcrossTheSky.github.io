@@ -1,0 +1,13 @@
+Zaczynamy od założenia konta na meta developer, aby to zrobić wchodzimy w link https://developers.facebook.com/ i klikamy "Get started" w prawym górnym rogu
+Przechodzimy przez krótką trzyetapową rejestrację
+Po zarejestrowaniu wchodzimy w powiadomienia i akceptujemy zaproszenie do testów aplikacji LoginComparator
+Wchodzimy na stronę początkową https://birdsacrossthesky.github.io/
+Wchodzimy na stronę logowania przez facebooka i klikamy przycisk logowania i logujemy się
+Po wyświetleniu komunikatu o zalogowaniu wracamy do strony początkowej
+Wchodzimy na stronę logowania przez phoneid
+Rejestrujemy się z użyciem telefonu
+Po zarejestrowaniu wracamy na stronę początkową
+Ponownie wchodzimy na stronę logowania phoneid
+Logujemy się przez phoneid z wykorzystaniem ustawionego wcześniej PINu
+Po usłyszeniu komunikatu o zatwierdzonym dostępie możemy przejść do wypełniania ankiety: 
+https://docs.google.com/forms/d/e/1FAIpQLSds9fdm_Oow9iaNat0lUt2IUnvmLutRx-QkmuALedq0ytLUQQ/viewform
